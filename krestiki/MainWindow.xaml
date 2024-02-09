@@ -1,0 +1,31 @@
+﻿<Window x:Class="krestiki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:krestiki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="119*"/>
+            <RowDefinition Height="260*"/>
+            <RowDefinition Height="55*"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="_1" Content=" " HorizontalAlignment="Left" Margin="250,57,0,0" VerticalAlignment="Top" Height="90" Width="90" Click="prosto_click" Grid.RowSpan="2"/>
+        <Button x:Name="_2" Content=" " HorizontalAlignment="Left" Margin="353,57,0,0" VerticalAlignment="Top" Height="90" Width="90" Click="prosto_click" Grid.RowSpan="2"/>
+        <Button x:Name="_3" Content=" " HorizontalAlignment="Left" Margin="454,57,0,0" VerticalAlignment="Top" Height="90" Width="90" Click="prosto_click" Grid.RowSpan="2"/>
+        <Button x:Name="_4" Content=" " HorizontalAlignment="Left" Margin="250,44,0,0" VerticalAlignment="Top" Height="90" Width="90" Click="prosto_click" Grid.Row="1"/>
+        <Button x:Name="_5" Content=" " HorizontalAlignment="Left" Margin="353,44,0,0" VerticalAlignment="Top" Height="90" Width="90" Click="prosto_click" Grid.Row="1"/>
+        <Button x:Name="_6" Content=" " HorizontalAlignment="Left" Margin="454,44,0,0" VerticalAlignment="Top" Height="90" Width="90" Click="prosto_click" Grid.Row="1"/>
+        <Button x:Name="_7" Content=" " HorizontalAlignment="Left" Margin="250,147,0,0" VerticalAlignment="Top" Height="90" Width="90" Click="prosto_click" RenderTransformOrigin="0.547,1.227" Grid.Row="1"/>
+        <Button x:Name="_8" Content=" " HorizontalAlignment="Left" Margin="353,147,0,0" VerticalAlignment="Top" Height="90" Width="90" Click="prosto_click" RenderTransformOrigin="0.549,1.334" Grid.Row="1"/>
+        <Button x:Name="_9" Content=" " HorizontalAlignment="Left" Margin="454,147,0,0" VerticalAlignment="Top" Height="90" Width="90" Click="prosto_click" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="250,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontSize="24" FontFamily="Times New Roman" TextAlignment="Center"><Run Language="ru-ru" Text="Лютые крестики-нолики"/></TextBlock>
+        <Button x:Name="start" Content="Начать игру" HorizontalAlignment="Left" Height="40" Margin="250,5,0,0" Grid.Row="2" VerticalAlignment="Top" Width="294" Cursor="ArrowCD" Click="start_click"/>
+        <TextBox x:Name="shtyka" HorizontalAlignment="Left" Height="45" Margin="66,10,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" RenderTransformOrigin="0.417,0.285" IsEnabled="False"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="766,250,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
